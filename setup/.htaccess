@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Access is Denied. Enter password"
+AuthUserFile /usr/lib/cgi-bin/redir/admin/.htpasswd
+Require valid-user
